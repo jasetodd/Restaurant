@@ -2,11 +2,11 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: nunito;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: whitesmoke;
 }
 
 img {
@@ -26,7 +26,7 @@ img {
 h1 {
   font-size: 4em;
   line-height: 1.1;
-  font-weight: boldest;
+  margin-top: 10%;
 }
 
 .about p {
@@ -39,10 +39,48 @@ nav {
   width: 40%;
   justify-content: space-around;
   position: center;
-  margin-left: 35%;
+  margin-left: 30%;
 }
 
 button {
   border: 0;
   background: transparent;
+  margin-top: 10px;
+  transition: transform 0.1s;
 }
+
+button:active {
+  transform: scale(1.1);
+}
+
+.menu-container {
+  display: block;
+  background-color: aliceblue;
+  width: 70%;
+  place-items: center;
+  margin: 0 auto;
+  height: 100dvh;
+}
+
+li {
+  list-style-type: none;
+}
+
+#menu-heading {
+  margin-bottom: 15px;
+  margin-top: 1%;
+  padding: 10px;
+}
+
+
+
+.cat {
+  margin-top: 20px;
+  border-bottom: 1px solid grey;
+  padding: 15px 180px;
+}
+
+
+/* move template to js
+loop menu items
+ */

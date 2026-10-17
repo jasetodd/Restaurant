@@ -1,8 +1,8 @@
 import "./style.css";
 
 import homePage from "./home.js";
+import menuPage from "./menu.js";
 
-homePage();
+// homePage();
 
-
-//assets not adding to git
+menuPage();

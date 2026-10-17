@@ -4,7 +4,8 @@ function homePage(params) {
   const h1 = document.createElement("h1");
   const img = document.createElement("img");
   const p = document.createElement("p");
-
+  const home = document.getElementById("home");
+  home.style.cssText = "font-size:1.1rem";
   img.src =
     "/Restaurant/assets/traditional-salad-with-pieces-medium-rare-grilled-ahi-tuna-sesame-with-fresh-vegetable-salad-rice-plate.jpg";
   h1.textContent = "Fancy Restaurant. Ooh la la";
