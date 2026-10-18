@@ -75,30 +75,26 @@ function menuPage() {
     ],
   };
 
+  // console.log(menuItems)
+
   for (let i in menuItems) {
+    const cat = document.createElement("h3");
+    cat.classList.add("cat");
+    cat.textContent = i;
+    container.append(cat);
+    const items = document.createElement("div");
+    items.classList.add("items");
+    container.append(items);
+
     console.log(i);
+
+    for (const item of menuItems[i]) {
+      const foodItem = document.createElement("p");
+      foodItem.textContent = item.name;
+      items.append(foodItem);
+      console.log(item.name);
+    }
   }
 }
-
-// <div class="menu-container"> tick
-//   <h1 id="menu-heading">Menu</h1> tick
-//   <div class="menu">
-//     <div class="cat">
-//       <h3 class="fOoDcAt">Pizza</h3>
-//       <h4>Margherita</h4>
-//       <div class="description">Its a pizza.</div>
-//     </div>
-//     <div class="cat">
-//       <h3>pasta</h3>
-//       <h4>pasta item</h4>
-//       <div class="description">Its pasta.</div>
-//     </div>
-//     <div class="cat">
-//       <h3>pasta 2</h3>
-//       <h4>pasta item</h4>
-//       <div class="description">It duplicates!.</div>
-//     </div>
-//   </div>
-// </div>
 
 export default menuPage;

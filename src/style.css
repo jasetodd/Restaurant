@@ -59,27 +59,36 @@ button:active {
   width: 70%;
   place-items: center;
   margin: 0 auto;
-  height: 100dvh;
-}
-
-li {
-  list-style-type: none;
+  height: 100vh;
 }
 
 #menu-heading {
   margin-bottom: 15px;
-  margin-top: 1%;
+  margin-top: 2%;
   padding: 10px;
 }
 
-
-
 .cat {
-  margin-top: 20px;
   border-bottom: 1px solid grey;
-  padding: 15px 180px;
+  padding: 15px 20%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.4rem;
 }
 
+p {
+  text-align: center;
+  line-height: 1.8rem;
+  font-weight: 400;
+}
+
+p:last-child {
+  margin-bottom: 50px;
+}
+
+p:first-child {
+  margin-top: 0;
+}
 
 /* move template to js
 loop menu items
