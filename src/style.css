@@ -12,7 +12,7 @@ body {
 img {
   position: absolute;
   width: 100%;
-  top: 0;
+  /* top: 0; */
   z-index: -1;
 }
 
@@ -38,8 +38,8 @@ nav {
   display: flex;
   width: 40%;
   justify-content: space-around;
-  position: center;
   margin-left: 30%;
+  margin-bottom: 10px;
 }
 
 button {
@@ -92,9 +92,46 @@ p:first-child {
 
 .menu-image {
   top: 40px;
-  margin-bottom: -7px;
+  margin-bottom: -7px; /*dafuq is this?*/
 }
 
-/* move template to js
-loop menu items
- */
+.about-page {
+  display: grid;
+}
+
+.primary {
+  place-items: center;
+  margin: auto;
+  background-color: #0f1316;
+  color: white;
+  width: 100%;
+  /* margin-top: 20px; */
+}
+
+.secondary {
+  place-items: center;
+  margin-top: 20px;
+}
+
+#about-icon {
+  display: grid;
+  border-radius: 50%;
+  height: 100px;
+  width: auto;
+  position: static;
+  margin-top: 5%;
+}
+
+.about-page h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.about-page h2 {
+  margin-top: 50px;
+}
+
+.about-page p {
+  width: 70%;
+  margin-bottom: 5%;
+}

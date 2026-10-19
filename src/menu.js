@@ -2,8 +2,6 @@ function menuPage() {
   const content = document.querySelector("div#content");
   const h1 = document.createElement("h1");
   const div = document.createElement("div");
-  const h3 = document.createElement("h3");
-  const h4 = document.createElement("h4");
   const menu = document.getElementById("menu");
   menu.style.cssText = "font-size:1.1rem";
   const img = document.createElement("img");
@@ -79,8 +77,6 @@ function menuPage() {
     ],
   };
 
-  // console.log(menuItems)
-
   for (let i in menuItems) {
     const cat = document.createElement("h3");
     cat.classList.add("cat");
@@ -90,13 +86,10 @@ function menuPage() {
     items.classList.add("items");
     container.append(items);
 
-    console.log(i);
-
     for (const item of menuItems[i]) {
       const foodItem = document.createElement("p");
       foodItem.textContent = item.name;
       items.append(foodItem);
-      console.log(item.name);
     }
   }
 }
