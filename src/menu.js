@@ -6,6 +6,10 @@ function menuPage() {
   const h4 = document.createElement("h4");
   const menu = document.getElementById("menu");
   menu.style.cssText = "font-size:1.1rem";
+  const img = document.createElement("img");
+  img.src = "/Restaurant/assets/menu.jpg";
+  img.classList.add("menu-image");
+  content.append(img);
 
   const container = div;
   container.classList.add("menu-container");
