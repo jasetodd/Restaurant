@@ -110,6 +110,26 @@ eval("{\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleEle
 
 /***/ },
 
+/***/ "./assets/menu.jpg"
+/*!*************************!*\
+  !*** ./assets/menu.jpg ***!
+  \*************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"935952e5e18f98dd764d.jpg\";\n\n//# sourceURL=webpack://restaurant/./assets/menu.jpg?\n}");
+
+/***/ },
+
+/***/ "./assets/traditional-salad-with-pieces-medium-rare-grilled-ahi-tuna-sesame-with-fresh-vegetable-salad-rice-plate.webp"
+/*!*****************************************************************************************************************************!*\
+  !*** ./assets/traditional-salad-with-pieces-medium-rare-grilled-ahi-tuna-sesame-with-fresh-vegetable-salad-rice-plate.webp ***!
+  \*****************************************************************************************************************************/
+(module, __unused_webpack_exports, __webpack_require__) {
+
+eval("{module.exports = __webpack_require__.p + \"85b84c944305e7cc9486.webp\";\n\n//# sourceURL=webpack://restaurant/./assets/traditional-salad-with-pieces-medium-rare-grilled-ahi-tuna-sesame-with-fresh-vegetable-salad-rice-plate.webp?\n}");
+
+/***/ },
+
 /***/ "./src/about.js"
 /*!**********************!*\
   !*** ./src/about.js ***!
@@ -126,7 +146,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
   \*********************/
 (__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction homePage(params) {\r\n  const content = document.querySelector(\"div#content\");\r\n  const div = document.createElement(\"div\");\r\n  const h1 = document.createElement(\"h1\");\r\n  const img = document.createElement(\"img\");\r\n  const p = document.createElement(\"p\");\r\n  const home = document.getElementById(\"home\");\r\n  home.style.cssText = \"font-size:1.1rem\";\r\n  img.src =\r\n    \"/Restaurant/assets/traditional-salad-with-pieces-medium-rare-grilled-ahi-tuna-sesame-with-fresh-vegetable-salad-rice-plate.webp\";\r\n  h1.textContent = \"Fancy Restaurant. Ooh la la\";\r\n  p.textContent =\r\n    \"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque,facere corrupti obcaecati quasi et, aliquid accusantium sed quos nisi non, sapiente repudiandae. Enim, sit exercitationem quae aspernatur ipsam vitae.\";\r\n\r\n  div.classList.add(\"about\");\r\n  content.append(img);\r\n  content.append(div);\r\n  div.append(h1);\r\n  div.append(p);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homePage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/home.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_traditional_salad_with_pieces_medium_rare_grilled_ahi_tuna_sesame_with_fresh_vegetable_salad_rice_plate_webp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/traditional-salad-with-pieces-medium-rare-grilled-ahi-tuna-sesame-with-fresh-vegetable-salad-rice-plate.webp */ \"./assets/traditional-salad-with-pieces-medium-rare-grilled-ahi-tuna-sesame-with-fresh-vegetable-salad-rice-plate.webp\");\n\r\n\r\nfunction homePage(params) {\r\n  const content = document.querySelector(\"div#content\");\r\n  const div = document.createElement(\"div\");\r\n  const h1 = document.createElement(\"h1\");\r\n  const img = document.createElement(\"img\");\r\n  const p = document.createElement(\"p\");\r\n  const home = document.getElementById(\"home\");\r\n  home.style.cssText = \"font-size:1.1rem\";\r\n  img.src = _assets_traditional_salad_with_pieces_medium_rare_grilled_ahi_tuna_sesame_with_fresh_vegetable_salad_rice_plate_webp__WEBPACK_IMPORTED_MODULE_0__;\r\n  h1.textContent = \"Fancy Restaurant. Ooh la la\";\r\n  p.textContent =\r\n    \"Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae itaque,facere corrupti obcaecati quasi et, aliquid accusantium sed quos nisi non, sapiente repudiandae. Enim, sit exercitationem quae aspernatur ipsam vitae.\";\r\n\r\n  div.classList.add(\"about\");\r\n  content.append(img);\r\n  content.append(div);\r\n  div.append(h1);\r\n  div.append(p);\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (homePage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/home.js?\n}");
 
 /***/ },
 
@@ -146,7 +166,7 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _st
   \*********************/
 (__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) {
 
-eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction menuPage() {\r\n  const content = document.querySelector(\"div#content\");\r\n  const h1 = document.createElement(\"h1\");\r\n  const div = document.createElement(\"div\");\r\n  const menu = document.getElementById(\"menu\");\r\n  menu.style.cssText = \"font-size:1.1rem\";\r\n  const img = document.createElement(\"img\");\r\n  img.src = \"/Restaurant/assets/menu.jpg\";\r\n  img.classList.add(\"menu-image\");\r\n  content.append(img);\r\n\r\n  const container = div;\r\n  container.classList.add(\"menu-container\");\r\n  content.append(container);\r\n  h1.id = \"menu-heading\";\r\n  h1.textContent = \"Menu\";\r\n  container.append(h1);\r\n\r\n  const menuItems = {\r\n    Pizza: [\r\n      {\r\n        name: \"Margherita\",\r\n        description: \"Tomato sauce, mozzarella, fresh basil and olive oil.\",\r\n        price: 10.5,\r\n      },\r\n      {\r\n        name: \"Pepperoni\",\r\n        description: \"Tomato sauce, mozzarella and spicy pepperoni.\",\r\n        price: 12.5,\r\n      },\r\n      {\r\n        name: \"Four Cheese\",\r\n        description: \"Mozzarella, gorgonzola, parmesan and ricotta.\",\r\n        price: 13,\r\n      },\r\n      {\r\n        name: \"Prosciutto & Rocket\",\r\n        description: \"Mozzarella, prosciutto, fresh rocket and parmesan.\",\r\n        price: 14,\r\n      },\r\n    ],\r\n\r\n    Pasta: [\r\n      {\r\n        name: \"Spaghetti Bolognese\",\r\n        description: \"Slow-cooked beef ragù, parmesan and fresh herbs.\",\r\n        price: 13.5,\r\n      },\r\n      {\r\n        name: \"Carbonara\",\r\n        description: \"Spaghetti, pancetta, egg, pecorino and black pepper.\",\r\n        price: 14,\r\n      },\r\n      {\r\n        name: \"Creamy Mushroom Tagliatelle\",\r\n        description: \"Wild mushrooms, garlic, cream and parmesan.\",\r\n        price: 13,\r\n      },\r\n    ],\r\n\r\n    Desserts: [\r\n      {\r\n        name: \"Tiramisu\",\r\n        description: \"Espresso-soaked sponge, mascarpone and cocoa.\",\r\n        price: 7,\r\n      },\r\n      {\r\n        name: \"Chocolate Brownie\",\r\n        description: \"Warm chocolate brownie served with vanilla ice cream.\",\r\n        price: 6.5,\r\n      },\r\n      {\r\n        name: \"Panna Cotta\",\r\n        description: \"Vanilla panna cotta with seasonal berries.\",\r\n        price: 6,\r\n      },\r\n    ],\r\n  };\r\n\r\n  for (let i in menuItems) {\r\n    const cat = document.createElement(\"h3\");\r\n    cat.classList.add(\"cat\");\r\n    cat.textContent = i;\r\n    container.append(cat);\r\n    const items = document.createElement(\"div\");\r\n    items.classList.add(\"items\");\r\n    container.append(items);\r\n\r\n    for (const item of menuItems[i]) {\r\n      const foodItem = document.createElement(\"p\");\r\n      foodItem.textContent = item.name;\r\n      items.append(foodItem);\r\n    }\r\n  }\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/menu.js?\n}");
+eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _assets_menu_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../assets/menu.jpg */ \"./assets/menu.jpg\");\n\r\n\r\nfunction menuPage() {\r\n  const content = document.querySelector(\"div#content\");\r\n  const h1 = document.createElement(\"h1\");\r\n  const div = document.createElement(\"div\");\r\n  const menu = document.getElementById(\"menu\");\r\n  menu.style.cssText = \"font-size:1.1rem\";\r\n  const img = document.createElement(\"img\");\r\n  img.src = _assets_menu_jpg__WEBPACK_IMPORTED_MODULE_0__;\r\n  img.classList.add(\"menu-image\");\r\n  content.append(img);\r\n\r\n  const container = div;\r\n  container.classList.add(\"menu-container\");\r\n  content.append(container);\r\n  h1.id = \"menu-heading\";\r\n  h1.textContent = \"Menu\";\r\n  container.append(h1);\r\n\r\n  const menuItems = {\r\n    Pizza: [\r\n      {\r\n        name: \"Margherita\",\r\n        description: \"Tomato sauce, mozzarella, fresh basil and olive oil.\",\r\n        price: 10.5,\r\n      },\r\n      {\r\n        name: \"Pepperoni\",\r\n        description: \"Tomato sauce, mozzarella and spicy pepperoni.\",\r\n        price: 12.5,\r\n      },\r\n      {\r\n        name: \"Four Cheese\",\r\n        description: \"Mozzarella, gorgonzola, parmesan and ricotta.\",\r\n        price: 13,\r\n      },\r\n      {\r\n        name: \"Prosciutto & Rocket\",\r\n        description: \"Mozzarella, prosciutto, fresh rocket and parmesan.\",\r\n        price: 14,\r\n      },\r\n    ],\r\n\r\n    Pasta: [\r\n      {\r\n        name: \"Spaghetti Bolognese\",\r\n        description: \"Slow-cooked beef ragù, parmesan and fresh herbs.\",\r\n        price: 13.5,\r\n      },\r\n      {\r\n        name: \"Carbonara\",\r\n        description: \"Spaghetti, pancetta, egg, pecorino and black pepper.\",\r\n        price: 14,\r\n      },\r\n      {\r\n        name: \"Creamy Mushroom Tagliatelle\",\r\n        description: \"Wild mushrooms, garlic, cream and parmesan.\",\r\n        price: 13,\r\n      },\r\n    ],\r\n\r\n    Desserts: [\r\n      {\r\n        name: \"Tiramisu\",\r\n        description: \"Espresso-soaked sponge, mascarpone and cocoa.\",\r\n        price: 7,\r\n      },\r\n      {\r\n        name: \"Chocolate Brownie\",\r\n        description: \"Warm chocolate brownie served with vanilla ice cream.\",\r\n        price: 6.5,\r\n      },\r\n      {\r\n        name: \"Panna Cotta\",\r\n        description: \"Vanilla panna cotta with seasonal berries.\",\r\n        price: 6,\r\n      },\r\n    ],\r\n  };\r\n\r\n  for (let i in menuItems) {\r\n    const cat = document.createElement(\"h3\");\r\n    cat.classList.add(\"cat\");\r\n    cat.textContent = i;\r\n    container.append(cat);\r\n    const items = document.createElement(\"div\");\r\n    items.classList.add(\"items\");\r\n    container.append(items);\r\n\r\n    for (const item of menuItems[i]) {\r\n      const foodItem = document.createElement(\"p\");\r\n      foodItem.textContent = item.name;\r\n      items.append(foodItem);\r\n    }\r\n  }\r\n}\r\n\r\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (menuPage);\r\n\n\n//# sourceURL=webpack://restaurant/./src/menu.js?\n}");
 
 /***/ }
 
@@ -203,6 +223,16 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 		}
 /******/ 	};
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	__webpack_require__.g = (function() {
+/******/ 		if (typeof globalThis === 'object') return globalThis;
+/******/ 		try {
+/******/ 			return this || new Function('return this')();
+/******/ 		} catch (e) {
+/******/ 			if (typeof window === 'object') return window;
+/******/ 		}
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop));
 /******/ 	
@@ -212,6 +242,29 @@ eval("{__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpa
 /******/ 		Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
 /******/ 		Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 	};
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		let scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		const document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript?.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				const scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					let i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^https?:/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/^blob:|[?#].*$/g, "").replace(/\/[^/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
 /******/ 	__webpack_require__.nc = undefined;
